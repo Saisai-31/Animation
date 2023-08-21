@@ -1,0 +1,31 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+img:hover {
+   
+    /* animation-name: yoyo;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite; */
+    animation: yoyo 5s 0s reverse infinite;
+    transform: rotate(180deg);
+    border-radius: 50px; 
+    width: 30%;  
+    height: 30%;
+}
+
+@keyframes yoyo {
+    from {
+        margin-left: 100vh;
+    }
+    to {
+        margin-right: 100vh;
+    }
+}
+
+
+
+   
