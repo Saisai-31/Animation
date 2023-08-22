@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* 1er exercice */
+p.droitegauche{
+    animation: anime 5s infinite;
+    /* animation-name: anime;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; */
+    
+    
+
+}
+@keyframes anime {
+   from {
+        margin-left: 100vh;
+    }
+    to {
+        margin-right: 100vh;
+    }
+}
+
+/* 2ème exercice */
+.animation {
+    animation: 3s linear 1s infinite;
+    animation-name: a1, a2, a3;
+}
+
+@keyframes a1 {
+    from {
+        margin-right: 100vh;
+    }
+    to {
+        margin-left: 100vh;
+    }
+}
+@keyframes a2 {
+    from {
+        color: red;
+    }
+    to {
+        color: blue; 
+    }
+}
+@keyframes a3 {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 180deg;
+    }
+}
+
+/* Exercice 3 */
+.anime5 {
+    animation: lola 6s linear 1s infinite;
+}
+.anime6 {
+    animation: lola 4s linear 3s 5;
+}
+.anime7 {
+    animation: lola 2s linear 4s 2;
+}
+@keyframes lola {
+    from {
+        font-size: small;
+    }
+    to {
+        font-size: x-large;
+    }
+}
