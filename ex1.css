@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
-/* 1er exercice */
+/* Exercice 1 et 2 */
 p.droitegauche{
     animation: anime 5s infinite;
     /* animation-name: anime;
@@ -22,7 +22,7 @@ p.droitegauche{
     }
 }
 
-/* 2ème exercice */
+/* Exercice 3 */
 .animation {
     animation: 5s linear 1s infinite;
     animation-name: a1, a2, a3;
@@ -53,7 +53,7 @@ p.droitegauche{
     }
 }
 
-/* Exercice 3 */
+/* Exercice 4 */
 .anime5 {
     animation: lola 6s linear 1s infinite;
 }
